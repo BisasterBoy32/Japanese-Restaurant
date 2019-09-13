@@ -1,0 +1,12 @@
+$green : #9baf6d;
+$lightgreen : #3e4136;
+$bg : #202020;
+$bg2 : rgba(62, 65, 54 ,.7);
+$fn1 :  Indie Flower;
+
+@mixin displayFlex($dir) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: center;
+    align-items: center;
+}

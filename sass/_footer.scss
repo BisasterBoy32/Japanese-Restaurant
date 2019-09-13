@@ -1,0 +1,64 @@
+@import './functions';
+
+#social {
+    text-align: center;
+    padding: 4rem 0;
+    color: $green;
+
+    p {
+        width: 60%;
+        margin: auto;
+    }
+
+    h5 {
+        margin-top: .5rem;
+        font-size: 1.5rem;
+        font-family: $fn1;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    i {
+        cursor: pointer;
+        color: $bg;
+        background-color: #fff;
+        margin: .5rem;
+        width: 30px;
+        height: 29px;
+        padding: 4px;
+        border-radius: 50%;
+        font-size: 1.6rem;
+    }
+}
+
+footer{
+    background-color: $bg2;
+    padding : 4rem 0 6rem 0;;
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        width: 30%;
+
+        h3 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &:nth-child(2){
+            margin-left: auto;
+            p {
+                font-weight: 700;
+                margin: .3rem 0;
+            }
+        }
+    }
+}

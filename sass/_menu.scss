@@ -1,0 +1,66 @@
+@import './functions';
+
+#menu {
+    background-color: $bg2;
+    padding: 3rem 0 5rem 0;
+
+    h2 {
+        text-align: center;
+        font-family: $fn1;
+        font-size: 2.5rem;
+        color: $green;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        grid-gap: 2.5rem;
+
+        img {
+            width: 100%;
+        }
+
+        li {
+            background-color: white;
+            color: $lightgreen;
+        }
+
+        div {
+            padding: 1rem;
+
+            h6 {
+                font-size: .8;
+                margin-bottom: 1rem;
+            }
+
+            h5 {
+                font-weight: 700;
+                line-height: 2em;
+                font-size: 1rem;
+            }
+
+            p {
+                margin-bottom: 1rem;
+            }
+
+            a {
+                cursor: pointer;
+                border-bottom: 5px solid $green;
+                text-transform: uppercase;
+
+            }
+        }
+
+    }
+
+
+}

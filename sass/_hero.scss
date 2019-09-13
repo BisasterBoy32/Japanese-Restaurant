@@ -1,0 +1,69 @@
+@import './functions';
+
+
+#hero {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hero-image.jpg');
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    .wrapper-hero {
+        height: 28rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+
+    img {
+        width: 160px;
+        height: 120px;
+    }
+
+    h2 {
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+        color: $green;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: $green;
+    }
+
+    a {
+        padding: 1rem 2rem;
+        color: $green;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        background-color: $bg2;
+        cursor: pointer;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .5);
+            transform: scale(0);
+            transition: transform 300ms ease-in-out;
+        }
+
+        &:hover::after {
+            transform: scale(1);
+        }
+    }
+}

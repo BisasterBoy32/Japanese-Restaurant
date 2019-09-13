@@ -1,0 +1,72 @@
+@import './functions';
+
+#discover {
+    background-color: $bg2;
+    padding: 3rem;
+
+    .discover-head {
+        text-align: center;
+    }
+
+    h2 {
+        font-family: $fn1;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10rem;
+        grid-row-gap: 4rem;
+        margin-top: 2rem;
+
+        li {
+            display: flex;
+        }
+
+        .discover-content {
+            margin: auto 0;
+            margin-left: 2rem;
+        }
+
+        h4 {
+            font-family: $fn1;
+            font-size: 1.2rem;
+        }
+
+        p {
+            margin-top: .6rem;
+        }
+
+        span {
+            font-weight: 700;
+            font-family: $fn1;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+#s7 {
+    background-image: url('../images/s7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 850px;
+}
+
+#s8 {
+    background-image: url('../images/s8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 850px;
+}

@@ -1,0 +1,375 @@
+@media (max-width: 1050px) {
+  html {
+    font-size: 15px;
+  }
+  .humIcon {
+    position: fixed;
+    right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .expand {
+    height: 260px;
+  }
+  header {
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 0.3rem;
+  }
+  header ul {
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+  }
+  header ul li {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  #hero img {
+    width: 140px;
+    height: 100px;
+  }
+  #hero h2 {
+    font-size: 2rem;
+  }
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  #hero a {
+    font-size: 2rem;
+  }
+  #cooks img {
+    width: 50%;
+  }
+  #discover {
+    padding: 1rem;
+  }
+  #discover ul {
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+  }
+  #book input,
+  #book select {
+    max-width: 210px;
+  }
+  #book h3 {
+    max-width: 210px;
+  }
+  #book button {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 533px) {
+  html {
+    font-size: 14px;
+  }
+  #hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero .wrapper-hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #cooks img {
+    width: 0%;
+  }
+  #cooks .wrapper {
+    width: 80%;
+  }
+  #cooks2 .wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #cooks2 .wrapper .cooks2-item {
+    padding: 1rem 8%;
+  }
+  #cooks2 .wrapper .cooks2-item h3 {
+    margin-top: .3rem;
+  }
+  #cooks2 .wrapper .cooks2-item p {
+    margin-top: .8rem;
+  }
+  #plate .plate-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #plate .plate-content .plate-item {
+    margin: 1rem;
+    border: 1px solid white;
+  }
+  #discover ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #discover ul li {
+    width: 80%;
+    margin: auto;
+  }
+  #book button {
+    width: 50% !important;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem !important;
+  }
+  #book .form-items {
+    display: block;
+  }
+  #book .form-items .form-item {
+    width: 50%;
+    margin: auto;
+  }
+  #book .form-items .form-item input,
+  #book .form-items .form-item select {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 533px) and (min-width: 390px) {
+  html {
+    font-size: 13px;
+  }
+  .expand {
+    height: 230px;
+  }
+  #hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero .wrapper-hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #cooks img {
+    width: 0%;
+  }
+  #cooks .wrapper {
+    width: 80%;
+  }
+  #cooks2 .wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #cooks2 .wrapper .cooks2-item {
+    padding: 1rem 8%;
+  }
+  #cooks2 .wrapper .cooks2-item h3 {
+    margin-top: .3rem;
+  }
+  #cooks2 .wrapper .cooks2-item p {
+    margin-top: .8rem;
+  }
+  #plate .plate-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #plate .plate-content .plate-item {
+    margin: 1rem;
+    border: 1px solid white;
+  }
+  #discover ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #discover ul li {
+    width: 90%;
+    margin: auto;
+  }
+  #book button {
+    width: 80% !important;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem !important;
+  }
+  #book .form-items {
+    display: block;
+  }
+  #book .form-items .form-item {
+    margin: 1rem auto;
+    width: 80%;
+    margin: auto;
+  }
+  #book .form-items .form-item input,
+  #book .form-items .form-item select {
+    width: 100%;
+    max-width: 100%;
+  }
+  #menu ul {
+    display: block;
+  }
+  #menu li {
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+  #social p {
+    width: 90%;
+  }
+  footer li {
+    width: 100%;
+    padding: .5rem;
+  }
+  footer li:nth-child(1) {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  footer li:nth-child(2) {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media (max-width: 389px) {
+  html {
+    font-size: 12px;
+  }
+  .expand {
+    height: 210px;
+  }
+  #hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero .wrapper-hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero img {
+    width: 110px;
+    height: 70px;
+  }
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
+  #hero a {
+    font-size: 1.5rem;
+  }
+  #cooks img {
+    width: 0%;
+  }
+  #cooks .wrapper {
+    width: 80%;
+  }
+  #cooks2 .wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #cooks2 .wrapper .cooks2-item {
+    padding: 1rem 0;
+  }
+  #cooks2 .wrapper .cooks2-item h3 {
+    margin-top: .3rem;
+  }
+  #cooks2 .wrapper .cooks2-item p {
+    margin-top: .8rem;
+  }
+  #plate .plate-wrapper {
+    margin: 3rem 0;
+  }
+  #plate .plate-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #plate .plate-content .plate-item {
+    margin: 0;
+    border: 1px solid white;
+    height: 80%;
+  }
+  #simple .simple-wrapper h2 {
+    font-size: 1.5rem;
+  }
+  #simple .simple-wrapper p {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  #simple .simple-wrapper img {
+    width: 20px;
+  }
+  #discover {
+    padding: 1rem 0;
+  }
+  #discover h3 {
+    font-size: 1.5rem;
+  }
+  #discover ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #discover ul li {
+    width: 100%;
+  }
+  #book h3 {
+    text-align: center;
+  }
+  #book button {
+    width: 90% !important;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem !important;
+  }
+  #book .form-items {
+    display: block;
+  }
+  #book .form-items .form-item {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  #book .form-items .form-item input,
+  #book .form-items .form-item select {
+    width: 100%;
+    max-width: 100%;
+  }
+  #menu h3 {
+    font-size: 2rem;
+  }
+  #menu ul {
+    display: block;
+  }
+  #menu li {
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+  #social p {
+    width: 90%;
+  }
+  footer li {
+    width: 100%;
+    padding: .5rem;
+  }
+  footer li:nth-child(1) {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  footer li:nth-child(2) {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/*# sourceMappingURL=screens.css.map */

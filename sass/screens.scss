@@ -1,0 +1,493 @@
+@import './functions';
+
+@media (max-width : 1050px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .humIcon {
+        position: fixed;
+        right: 30px;
+        display: flex;
+    }
+
+    .expand {
+        height: 260px;
+    }
+
+    header {
+        height: 2.5rem;
+        background-color: rgba(0, 0, 0, .5);
+        overflow: hidden;
+        padding: 0.3rem;
+
+        ul {
+            display: block;
+            margin: auto;
+            padding-top: 2rem;
+
+            li {
+                margin-top: 1rem;
+                text-align: center;
+            }
+        }
+    }
+
+    #hero {
+        img {
+            width: 140px;
+            height: 100px;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        a {
+            font-size: 2rem;
+        }
+    }
+
+    #cooks {
+        img {
+            width: 50%;
+        }
+    }
+
+    #discover {
+        padding: 1rem;
+
+        ul {
+            grid-column-gap: 2rem;
+            grid-row-gap: 3rem;
+        }
+    }
+
+    #book {
+
+        input,
+        select {
+            max-width: 210px;
+        }
+
+        h3 {
+            max-width: 210px;
+        }
+
+        button {
+            max-width: 210px;
+        }
+    }
+}
+
+@media (max-width : 800px) and (min-width : 533px) {
+    html {
+        font-size: 14px;
+    }
+
+    #hero {
+        align-items: center;
+
+        .wrapper-hero {
+            align-items: center;
+        }
+    }
+
+    #cooks {
+        img {
+            width: 0%;
+        }
+
+        .wrapper {
+            width: 80%;
+        }
+    }
+
+    #cooks2 {
+        .wrapper {
+            display: block;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .cooks2-item {
+                padding: 1rem 8%;
+
+                h3 {
+                    margin-top: .3rem;
+                }
+
+                p {
+                    margin-top: .8rem;
+                }
+            }
+        }
+    }
+
+    #plate {
+        .plate-content {
+            grid-template-columns: 1fr;
+
+            .plate-item {
+                margin: 1rem;
+                border: 1px solid white;
+            }
+        }
+    }
+
+    #discover {
+        ul {
+            grid-template-columns: 1fr;
+
+            li {
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+
+    #book {
+
+        button {
+            width: 50% !important;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+            margin-top: 2rem !important;
+        }
+
+        .form-items {
+            display: block;
+
+            .form-item {
+                width: 50%;
+                margin: auto;
+
+                input,
+                select {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width : 533px) and (min-width : 390px) {
+    html {
+        font-size: 13px;
+    }
+
+    .expand {
+        height: 230px;
+    }
+
+    #hero {
+        align-items: center;
+
+        .wrapper-hero {
+            align-items: center;
+        }
+    }
+
+    #cooks {
+        img {
+            width: 0%;
+        }
+
+        .wrapper {
+            width: 80%;
+        }
+    }
+
+    #cooks2 {
+        .wrapper {
+            display: block;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .cooks2-item {
+                padding: 1rem 8%;
+
+                h3 {
+                    margin-top: .3rem;
+                }
+
+                p {
+                    margin-top: .8rem;
+                }
+            }
+        }
+    }
+
+    #plate {
+        .plate-content {
+            grid-template-columns: 1fr;
+
+            .plate-item {
+                margin: 1rem;
+                border: 1px solid white;
+            }
+        }
+    }
+
+    #discover {
+        ul {
+            grid-template-columns: 1fr;
+
+            li {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+
+    #book {
+
+        button {
+            width: 80% !important;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+            margin-top: 2rem !important;
+        }
+
+        .form-items {
+            display: block;
+
+            .form-item {
+                margin: 1rem auto;
+                width: 80%;
+                margin: auto;
+
+                input,
+                select {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    #menu {
+        ul {
+            display: block;
+        }
+
+        li {
+            width: 80%;
+            margin: auto;
+            margin-top: 2.5rem;
+        }
+    }
+
+    #social p {
+        width: 90%;
+    }
+
+    footer {
+        li {
+            width: 100%;
+            padding: .5rem;
+        }
+
+
+        li:nth-child(1) {
+            flex: 3;
+        }
+
+        li:nth-child(2) {
+            flex: 1;
+        }
+    }
+}
+
+@media (max-width : 389px) {
+    html {
+        font-size: 12px;
+    }
+
+    .expand {
+        height: 210px;
+    }
+
+    #hero {
+        align-items: center;
+
+        .wrapper-hero {
+            align-items: center;
+        }
+
+        img {
+            width: 110px;
+            height: 70px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1.5rem;
+        }
+    }
+
+    #cooks {
+        img {
+            width: 0%;
+        }
+
+        .wrapper {
+            width: 80%;
+        }
+    }
+
+    #cooks2 {
+        .wrapper {
+            display: block;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .cooks2-item {
+                padding: 1rem 0;
+
+                h3 {
+                    margin-top: .3rem;
+                }
+
+                p {
+                    margin-top: .8rem;
+                }
+            }
+        }
+    }
+
+    #plate {
+
+        .plate-wrapper {
+            margin: 3rem 0;
+        }
+
+        .plate-content {
+            grid-template-columns: 1fr;
+
+            .plate-item {
+                margin: 0;
+                border: 1px solid white;
+                height: 80%;
+            }
+        }
+    }
+
+
+    #simple {
+        .simple-wrapper {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                width: 90%;
+                margin-bottom: 2rem;
+            }
+
+            img {
+                width: 20px;
+            }
+        }
+    }
+
+    #discover {
+
+        padding: 1rem 0;
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        ul {
+            grid-template-columns: 1fr;
+
+            li {
+                width: 100%;
+            }
+        }
+    }
+
+    #book {
+
+        h3 {
+            text-align: center;
+        }
+
+        button {
+            width: 90% !important;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+            margin-top: 2rem !important;
+        }
+
+        .form-items {
+            display: block;
+
+            .form-item {
+                width: 90%;
+                margin: 1rem auto;
+
+                input,
+                select {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    #menu {
+        h3 {
+            font-size: 2rem;
+        }
+
+        ul {
+            display: block;
+        }
+
+        li {
+            width: 90%;
+            margin: auto;
+            margin-top: 2.5rem;
+        }
+    }
+
+    #social p {
+        width: 90%;
+    }
+
+    footer {
+        li {
+            width: 100%;
+            padding: .5rem;
+        }
+
+
+        li:nth-child(1) {
+            flex: 3;
+        }
+
+        li:nth-child(2) {
+            flex: 1;
+        }
+    }
+}

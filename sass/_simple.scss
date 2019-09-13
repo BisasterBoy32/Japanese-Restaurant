@@ -1,0 +1,29 @@
+@import'./functions';
+
+#simple {
+    background-color: $bg2;
+
+    .simple-wrapper {
+        height: 22rem;
+        @include displayFlex(column);
+
+        h2 {
+            font-family: $fn1;
+            color: $green;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            width: 60%;
+            text-align: center;
+        }
+    }
+
+    #bottom-img {
+        width: 100%;
+    }
+
+
+}
