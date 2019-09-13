@@ -58,3 +58,16 @@ document.querySelector(".humIcon")
 $(document).ready(function(){
     new WOW().init();
 })
+
+
+/*********************
+    Form Submitting
+ *********************/
+
+document.querySelector(".myform")
+.addEventListener('submit', function(e){
+    e.preventDefault()
+    alert(`Hi ${e.target.name.value} thanks for choosing us :)
+    \n a table for ${e.target.number.value} has been booked for you
+    \n at ${e.target.date.value}, ${e.target.time.value}`)
+})
