@@ -931,6 +931,14 @@ footer ul {
           align-items: center;
 }
 
+footer a {
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #9baf6d;
+}
+
 footer li {
   width: 30%;
 }

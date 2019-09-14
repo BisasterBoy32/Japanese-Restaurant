@@ -44,6 +44,12 @@ footer{
         align-items: center;
     }
 
+    a {
+        cursor: pointer;
+        &:hover {
+            color: $green;
+        }
+    }
     li {
         width: 30%;
 
